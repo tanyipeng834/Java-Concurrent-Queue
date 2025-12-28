@@ -78,7 +78,7 @@ public class Chef implements Runnable {
             // other threads cannot acquire the lock.
             // place the order id so that the waiter would know which order this belongs to.
             
-        System.out.println("Chef Exits");
+        
         }
         
         

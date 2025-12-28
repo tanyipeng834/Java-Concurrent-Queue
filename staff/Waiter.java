@@ -88,7 +88,7 @@ public class Waiter implements Runnable {
             lock.lock();
             try{
             if(ordersServed>=Orders){
-                
+
                 break;
             }
             currentOrderService = ordersServed++;
@@ -124,7 +124,7 @@ public class Waiter implements Runnable {
            
             
         }
-        System.out.println("Waiter Exits");
+    
             
             
         
